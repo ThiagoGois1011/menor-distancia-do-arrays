@@ -2,8 +2,7 @@ function CriarArrayNumerosAleatorios(){
     const arrayDeNumeros = [];
     
     for(let i = 0; i < 15; i++){
-      const numeroParaSerAdicionado = 
-        Math.round(Math.random() * 100);
+      const numeroParaSerAdicionado = Math.round(Math.random() * 100);
       arrayDeNumeros.push(numeroParaSerAdicionado);
     }
     return arrayDeNumeros;
